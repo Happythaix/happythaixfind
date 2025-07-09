@@ -1,0 +1,26 @@
+body {
+  background-color: #ffd76187;
+}
+
+
+#textdata {
+  display: block;
+}
+
+#tabledata {
+  display: none;
+}
+
+@media (max-width: 767px) {
+
+
+  body {
+    font-size: 12px;
+  }
+
+  #myModal .modal-content form .input-group input,
+  #myModal .modal-content form .input-group textarea,
+  #myModal .modal-content form .input-group select {
+    font-size: 14px;
+  }
+}
